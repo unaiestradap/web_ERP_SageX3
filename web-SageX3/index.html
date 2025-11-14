@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sage X3 -- Presentació</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/main.js"></script>
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" style="display:flex;align-items:center;text-decoration:none;color:inherit">
+        <img src="img/logo.png" alt="Logotip Sage X3" class="logo" />
+        <div class="brand-title" style="margin-left:8px">Sage X3</div>
+      </a>
+
+      <nav class="main-nav" role="navigation" aria-label="Navegació principal">
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li><a href="html/features.html">Funcionalitats</a></li>
+          <li><a href="html/pricing.html">Preus</a></li>
+          <li><a href="html/support.html">Suport</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="main" role="main">
+    <!-- Secció principal amb imatge de fons -->
+    <section id="inici" class="hero hero-fons" aria-labelledby="titulo-inici">
+      <h1 id="titulo-inici">Sage X3 — Solució ERP per a la gestió empresarial</h1>
+      <p class="lead">Sage X3 integra finances, compres, vendes i inventari en una sola plataforma escalable. Aquesta pàgina segueix les normes del PDF del projecte: estructura, accessibilitat i impressió.</p>
+      <p>
+        <a class="btn" href="html/features.html">Més informació</a>
+        <a class="btn outline" href="html/pricing.html" style="margin-left:8px">Plans i preus</a>
+      </p>
+    </section>
+
+    <section aria-labelledby="caracteristiques" style="margin-top:18px;">
+      <h2 id="caracteristiques">Característiques clau</h2>
+      <div class="grid" style="margin-top:10px;">
+        <div class="card">
+          <h3>Gestió financera</h3>
+          <p>Comptabilitat, informes i controls d'auditoria.</p>
+        </div>
+        <div class="card">
+          <h3>Inventari</h3>
+          <p>Traçabilitat per lots, ubicacions i seguiment en temps real.</p>
+        </div>
+        <div class="card">
+          <h3>Vendes i compres</h3>
+          <p>Procés de comandes, gestió de proveïdors i automatització.</p>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="deliverables" style="margin-top: 18px;">
+      <h2 id="deliverables">Lliurables</h2>
+      <ul>
+        <li>Informe de “Health Check” amb troballes i recomanacions</li>
+        <li>Pla de treball o “Work Breakdown Structure” amb els entregables clau, dates, tasques i responsables.</li>
+        <li>Documentació de requeriments o “change request” que recull l’abast del canvi i els seus impactes</li>
+        <li>Pla de migració de dades i informe de validació de dades migrades</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p> © 2025 Sage X3 </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
